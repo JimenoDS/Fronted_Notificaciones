@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class NotificationService {
-  private apiUrl = 'https://debernotificaciones-production.up.railway.app/';
+  private apiUrl = 'https://deber-notificaciones.onrender.com';
 
   constructor(private http: HttpClient) {}
 
